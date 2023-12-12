@@ -4,7 +4,7 @@ root=Tk()
 root.geometry("750x250")
 root.title("weather forcast")
 
-api_key = "0440a6f00336b7991fb55c5cb92ea7ba"
+api_key = "Enter Your API_KEY"
 
 def get_weather(api_key, city_entry):
     base_url = "http://api.openweathermap.org/data/2.5/weather"
